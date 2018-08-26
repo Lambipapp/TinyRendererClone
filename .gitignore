@@ -297,3 +297,4 @@ __pycache__/
 
 #Folders containing libraries
 **/dependencies/
+*/Debug/
