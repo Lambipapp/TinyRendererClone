@@ -21,13 +21,22 @@
     <ClCompile Include="src\tgaimage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\provided\tgaimage.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\provided\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\provided\model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Object Include="src\objs\african_head.obj" />
+    <Image Include="output.tga" />
   </ItemGroup>
 </Project>
